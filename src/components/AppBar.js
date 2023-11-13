@@ -51,7 +51,10 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-function MyAppBar() {
+function MyAppBar(props){
+  const {
+    toggleMenu
+  } = props;
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -61,7 +64,8 @@ function MyAppBar() {
             edge="start"
             color="inherit"
             aria-label="open drawer"
-            sx={{mr : 2}}>
+            sx={{mr : 2}}
+            onClick={toggleMenu}>
             <MenuIcon />
           </IconButton>
           <Typography
