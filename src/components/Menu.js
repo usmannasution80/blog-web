@@ -21,6 +21,8 @@ function Menu(props){
     toggleMenu
   } = props;
 
+  const {_} = window.web;
+
   const theme = createTheme({
     components : {
       MuiListItem : {
@@ -45,7 +47,7 @@ function Menu(props){
                 <ListItemIcon>
                   <HomeIcon/>
                 </ListItemIcon>
-                <ListItemText primary={'Home'}/>
+                <ListItemText primary={_('home')}/>
               </ListItemButton>
             </ListItem>
             <ListItem>
@@ -53,7 +55,7 @@ function Menu(props){
                 <ListItemIcon>
                   <NewspaperIcon/>
                 </ListItemIcon>
-                <ListItemText primary={'Artikel'}/>
+                <ListItemText primary={_('articles')}/>
               </ListItemButton>
             </ListItem>
             <ListItem>
@@ -61,7 +63,7 @@ function Menu(props){
                 <ListItemIcon>
                   <LocalOfferIcon/>
                 </ListItemIcon>
-                <ListItemText primary={'Kategori'}/>
+                <ListItemText primary={_('categories')}/>
               </ListItemButton>
             </ListItem>
             <ListItem>
@@ -69,7 +71,7 @@ function Menu(props){
                 <ListItemIcon>
                   <ContactMailIcon/>
                 </ListItemIcon>
-                <ListItemText primary={'Kontak'}/>
+                <ListItemText primary={_('contact')}/>
               </ListItemButton>
             </ListItem>
             <ListItem>
@@ -77,7 +79,7 @@ function Menu(props){
                 <ListItemIcon>
                   <LanguageIcon/>
                 </ListItemIcon>
-                <ListItemText primary={'Ganti Bahasa'}/>
+                <ListItemText primary={_('change_language')}/>
               </ListItemButton>
             </ListItem>
           </List>
