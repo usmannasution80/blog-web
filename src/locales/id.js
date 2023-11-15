@@ -1,4 +1,4 @@
-export default {
+const id = {
   '_' : 'Bahasa Indonesia',
   'home' : 'Home',
   'articles' : 'Artikel',
@@ -6,3 +6,5 @@ export default {
   'contact' : 'Kontak',
   'change_language' : 'Ganti Bahasa'
 };
+
+export default id;
