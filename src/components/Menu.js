@@ -12,6 +12,7 @@ import NewspaperIcon from '@mui/icons-material/Newspaper';
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import LanguageIcon from '@mui/icons-material/Language';
+import LoginIcon from '@mui/icons-material/Login';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
 function Menu(props){

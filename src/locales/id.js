@@ -4,7 +4,10 @@ const id = {
   'articles' : 'Artikel',
   'categories' : 'Kategori',
   'contact' : 'Kontak',
-  'change_language' : 'Ganti Bahasa'
+  'change_language' : 'Ganti Bahasa',
+  'login' : 'Masuk',
+  'email' : 'Email',
+  'password' : 'Password'
 };
 
 export default id;
