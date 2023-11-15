@@ -21,7 +21,7 @@ function Menu(props){
     toggleMenu
   } = props;
 
-  const {_} = window.web;
+  const {_, navigate} = window.web;
 
   const theme = createTheme({
     components : {
@@ -51,7 +51,7 @@ function Menu(props){
               </ListItemButton>
             </ListItem>
             <ListItem>
-              <ListItemButton>
+              <ListItemButton onClick={e => navigate('/articles')}>
                 <ListItemIcon>
                   <NewspaperIcon/>
                 </ListItemIcon>
