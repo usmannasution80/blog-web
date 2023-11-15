@@ -14,7 +14,7 @@ function Article(){
   }
 
   return (
-    <>
+    <Box sx={{maxWidth:'720px', m:'auto'}}>
       <Box
         component="h2"
         sx={{
@@ -25,7 +25,7 @@ function Article(){
         width="100%"
         src="https://images.tokopedia.net/img/KRMmCm/2023/9/18/9f609a7c-bcb1-488e-938c-6df8576dea06.jpg"/>
       {content}
-    </>
+    </Box>
   );
 
 }
