@@ -3,6 +3,7 @@ import AppBar from 'components/AppBar';
 import Menu from 'components/Menu';
 import Routes from 'components/Routes';
 import {useNavigate} from 'react-router-dom';
+import {Box} from '@mui/material';
 
 function App(){
 
@@ -20,7 +21,9 @@ function App(){
       <Menu
         open={menu}
         toggleMenu={e => setMenu(!menu)}/>
-      <Routes/>
+      <Box sx={{p:1}}>
+        <Routes/>
+      </Box>
     </>
   );
 
