@@ -13,6 +13,7 @@ function App(){
 
   window.web.render = () => setRender(render * -1);
   window.web.navigate = navigate;
+  window.onstorage = e => alert('storage');//window.web.render();
 
   return (
     <>
