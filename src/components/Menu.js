@@ -83,6 +83,14 @@ function Menu(props){
                 <ListItemText primary={_('change_language')}/>
               </ListItemButton>
             </ListItem>
+            <ListItem>
+              <ListItemButton onClick={e => navigate('/login')}>
+                <ListItemIcon>
+                  <LoginIcon/>
+                </ListItemIcon>
+                <ListItemText primary={_('login')}/>
+              </ListItemButton>
+            </ListItem>
           </List>
         </Box>
       </Drawer>
