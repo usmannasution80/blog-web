@@ -7,6 +7,7 @@ import {
 function Login(){
 
   const {_} = window.web;
+  alert(window.web.server);
 
   return (
     <Box sx={{maxWidth : '500px', m : 'auto'}}>
